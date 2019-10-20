@@ -2,7 +2,7 @@
 layout: post
 title:  "Oracle Call Interface (OCI) Tracing"
 date:   2017-04-10
-categories: oci-tracing
+categories: oracle
 ---
 
 The Oracle Call Interface (OCI) is a set of APIs which provides interaction with an Oracle database. It supports all phases of a SQL statement execution.
