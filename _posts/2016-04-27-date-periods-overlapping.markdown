@@ -12,7 +12,7 @@ The post:
 
 The possible four cases where period overlap can occur are:
 
-{% highlight %}
+{% highlight shell %}
 case 1:
 
 ----------
@@ -36,7 +36,7 @@ case 4:
 
 One way we can determine the overlapping periods is if we use OR conditions for all cases, e.g.:
 
-{% highlight %}
+{% highlight shell %}
 (start_date_1 between start_date_2 and end_date_2) -- case 2/case_3
 OR
 (end_date_1 between start_date_2 and end_date_2) -- case 1/case 3
@@ -46,7 +46,7 @@ OR
 
 If you are familiar with De Morgan’s laws (from school 🙂 ) then:
 
-{% highlight %}
+{% highlight shell %}
 “not (A and B)” is the same as “(not A) or (not B)”
 also,
 “not (A or B)” is the same as “(not A) and (not B)”.
@@ -54,6 +54,6 @@ also,
 
 With this implemented, we can get the following condition:
 
-{% highlight %}
+{% highlight shell %}
 (start_date1 <= end_date2 AND end_date1 >= start_date2)
 {% endhighlight %}
