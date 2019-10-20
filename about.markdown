@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-[headshot](/assets/Ivica_front_page.jpg) I started my career as spider-man (we called our-self like that in those days). I was working on web crawler/spider software and mainly my duties were writing regular expressions. After one year I moved to development and started working with PHP and some Java, great experience.
+<img src="/assets/Ivica_front_page.jpg"/> I started my career as spider-man (we called our-self like that in those days). I was working on web crawler/spider software and mainly my duties were writing regular expressions. After one year I moved to development and started working with PHP and some Java, great experience.
 My interest for databases appeared at university where I took my first OCA certification as part of the Databases I subject, which in fact it was my first introduction to the Oracle world.
 
 I am Oracle Certified Master for 12c & 11g versions. The first exam (11g) I took it in Bucharest, Romania. For the exam I can say that it were two days of hard work , lot of pressure and excitement. I was preparing nine months for those two days, I’ve dedicated one month for each of the nine sections. Now, when I look back it was long way to go, but it worth every minute. I learned a lot, read a lot and overall it was very good experience. From February 2016 I am OCM for the 12c version, one of the first 10 OCMs in Europe and USA.
