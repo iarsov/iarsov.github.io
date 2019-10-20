@@ -17,7 +17,7 @@ I’ll always try to express my self at my best and clearly describe the stateme
 
 You can contact me on:
 
-[Linkedin](https://linkedin.com/in/iarsov)<br/>
-[Twitter](https://twitter.com/IvicaArsov)
+[Linkedin](https://linkedin.com/in/iarsov){:target="_blank"}<br/>
+[Twitter](https://twitter.com/IvicaArsov){:target="_blank"}
 
 Happy reading and don’t be shy to comment :)
