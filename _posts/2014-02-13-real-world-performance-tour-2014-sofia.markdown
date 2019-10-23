@@ -9,8 +9,8 @@ Next Friday on 21th February the Real World Performance Tour 2014 will take plac
 The Bulgarian Oracle Users Group, with the support of the Independent Oracle User Group (IOUG) and the partnership of the Romanian Oracle Users Group, is organizing a one day seminar in Sofia.
 
 Speakers on this event are:
-    – Tom Kyte, Senior Technical Architect ORACLE Server Technology Division
-    – Graham Wood, Architect Server Technologies
-    – Andrew Holdsworth, Vice President Real World Performance Server Technologies
+    * Tom Kyte, Senior Technical Architect ORACLE Server Technology Division
+    * Graham Wood, Architect Server Technologies
+    * Andrew Holdsworth, Vice President Real World Performance Server Technologies
 
-More information about the event and registration you can find at (http://www.bgoug.org/en/events/details/91.html){:target="_blank"}
+More information about the event and registration you can find [here](http://www.bgoug.org/en/events/details/91.html){:target="_blank"}
