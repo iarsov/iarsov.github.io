@@ -10,8 +10,8 @@ The Bulgarian Oracle Users Group, with the support of the Independent Oracle Use
 
 Speakers on this event are:
 
-    – Tom Kyte, Senior Technical Architect ORACLE Server Technology Division
-    – Graham Wood, Architect Server Technologies
-    – Andrew Holdsworth, Vice President Real World Performance Server Technologies
+– Tom Kyte, Senior Technical Architect ORACLE Server Technology Division
+– Graham Wood, Architect Server Technologies
+– Andrew Holdsworth, Vice President Real World Performance Server Technologies
 
 More information about the event and registration you can find [here](http://www.bgoug.org/en/events/details/91.html){:target="_blank"}
