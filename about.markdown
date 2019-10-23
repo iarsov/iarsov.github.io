@@ -13,11 +13,4 @@ Also, I am speaker at Oracle User Group Conferences such as UKOUG, Oracle Open W
 
 I started to blog actively couple of years ago, there are a lot of good people in the community from who I learn everyday and also I would like to contribute, to share my knowledge and everyday experience.
 
-I’ll always try to express my self at my best and clearly describe the statements in my posts with examples and demos.
-
-You can contact me on:
-
-[Linkedin](https://linkedin.com/in/iarsov){:target="_blank"}<br/>
-[Twitter](https://twitter.com/IvicaArsov){:target="_blank"}
-
-Happy reading and don’t be shy to comment :)
+I’ll always try to express my self at my best and clearly describe the statements in my posts with examples.
