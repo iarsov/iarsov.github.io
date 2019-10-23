@@ -77,5 +77,4 @@ If the function has IN parameters of the following types (BLOB,CLOB,NCLOB,REF CU
 If the return type is one of the following (BLOB,CLOB,NCLOB,REF CURSOR,collection,object,record)
 If the function is defined in a module that has the invoker’s rights or in an anonymous block
 
-For more advanced topics about how to handle session-specific settings/application context check the online documentation:
-[http://docs.oracle.com/cd/E11882_01/appdev.112/e25519/subprograms.htm#LNPLS706]
+For more advanced topics about how to handle session-specific settings/application context check the online documentation [http://docs.oracle.com/cd/E11882_01/appdev.112/e25519/subprograms.htm#LNPLS706]
