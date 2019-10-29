@@ -50,7 +50,7 @@ log_archive_dest_6                       TRUE
 185 rows selected.
 {% endhighlight %}
 
-Till this release 12.1.0.2 there are 185 init parameters that can be modified at PDB level.
+Until this release 12.1.0.2, there are 185 init parameters that can be modified at PDB level.
 In order do modify parameters at PDB level we need to be connected to PDB container for which we want to make the modification. If we are connected at ROOT container the parameter modification will take place for entire CDB.
 
 {% highlight sql %}
