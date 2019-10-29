@@ -46,7 +46,6 @@ SQL> exec dbms_scheduler.copy_job('SYS.MY_JOB','IARSOV.MY_JOB');
 
 PL/SQL procedure successfully completed.
 
-{% highlight sql %}
 SQL> conn iarsov/iarsov
 Connected.
 SQL>
