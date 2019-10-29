@@ -1,4 +1,9 @@
-
+---
+layout: post
+title:  "Invisible Columns"
+date:   2014-11-29
+categories: oracle
+---
 
 Oracle with the release of 12c introduced new feature called invisible columns which basically allows developers to create new columns (as I would say) not visible to the world 🙂 . It enables end-users to continue accessing the application while developers enhancing the application.
 These kind of columns are not visible to the application because in order to access the column we have to explicitly specify the column name in the select statement. “SELECT * FROM …” will also not show the column. This is because COLUMN_ID column in _TAB_COLUMNS dictionary views which is used to determine the order of columns retrieved when you run ” SELECT * FROM …” has a NULL value.
