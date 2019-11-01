@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Active Services On Physical Standby Database"
-date:   2015-17-12
+date:   2015-12-17
 categories: oracle
 ---
 
