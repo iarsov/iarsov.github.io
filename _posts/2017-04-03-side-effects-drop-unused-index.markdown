@@ -9,7 +9,8 @@ Few weeks ago I’ve published a post on Pythian’s blog regarding a scenario w
 
 I will post here the introduction only, you can find link to the full post at the bottom.
 <hr/>
-THE SIDE EFFECTS OF DROP ‘UNUSED’ INDEX
+
+_THE SIDE EFFECTS OF DROP 'UNUSED' INDEX_
 
 In this blog post I’ll demonstrate a scenario where dropping a potentially ‘unused’ index can have a negative influence on the optimizer’s cardinality estimation. Having columns with logical correlation and skewed data can cause difficulties for the optimizer when calculating cardinality. This post will also address what we can do to help the optimizer with better cardinality estimates.
 
@@ -45,4 +46,4 @@ Use case where we demonstrate how drop of an “unused” index can mess up opti
 How to help optimizer for better cardinality estimation with extended statistics.
 More explanation on column correlation (CorStregth).
 
-The full post you can read here.
+The full post you can read [here](https://www.pythian.com/blog/drop-unused-index-side-effects){:target="_blank"}.
