@@ -5,15 +5,15 @@ date:   2018-05-11
 categories: oracle
 ---
 
-This is a short blog post to give you an idea how you can define your own custom date and time format for “ls -l” command in ASMCMD. If you use ASMCMD quite often, you might have been (at least once) in a situation where you wanted to format the date and time of “ls -l” command, but you did not find a way to do it.
+This is a short blog post to give you an idea how you can define your own custom date and time format for "ls -l" command in ASMCMD. If you use ASMCMD quite often, you might have been (at least once) in a situation where you wanted to format the date and time of "ls -l" command, but you did not find a way to do it.
 
-If you did not know, in ASMCMD utility the date and time format for “ls -l” command is hardcoded. Possible formats are “MON DD YYYY” or “MON DD HH24:MI:SS”, based on file age. With RMAN we can use NLS_DATE_FORMAT environment variable to define our desired format, but that’s not the case with ASMCMD.
+If you did not know, in ASMCMD utility the date and time format for "ls -l" command is hardcoded. Possible formats are "MON DD YYYY" or "MON DD HH24:MI:SS", based on file age. With RMAN we can use NLS_DATE_FORMAT environment variable to define our desired format, but that’s not the case with ASMCMD.
 
 ASMCMD is a Perl utility that provides navigation of directories/files within ASM disk groups. Its modules are stored in $CRS_HOME/lib directory.
-ASMCMD utility base module is asmcmdbase.pm
+ASMCMD utility base module is **asmcmdbase.pm**.
 
-The subroutine for listing files located in the base module is asmcmdbase_ls_process_file. You can see the logic how file dates are printed. We can notice that if the file is older than 6 months the format used is “MON DD YYYY”. If the file is newer, the format used is “MON DD HH24:MI:SS”. This subroutine is called (executed) for each file that needs to be printed in ASMCMD.
-List entries $entry_info_ref->{‘mod_date’} and $entry_info_ref->{‘mod_time’} contain the data for both hardcoded formats. MOD_DATE if the files is older than 6 months and MOD_TIME if the file is newer.
+The subroutine for listing files located in the base module is **asmcmdbase_ls_process_file**. You can see the logic how file dates are printed. We can notice that if the file is older than 6 months the format used is "MON DD YYYY". If the file is newer, the format used is "MON DD HH24:MI:SS". This subroutine is called (executed) for each file that needs to be printed in ASMCMD.
+List entries _$entry_info_ref->{'mod_date'}_ and _$entry_info_ref->{'mod_time'}_ contain the data for both hardcoded formats. MOD_DATE if the files is older than 6 months and MOD_TIME if the file is newer.
 
 {% highlight bash %}
 ...
@@ -46,7 +46,7 @@ $entry_info_ref->{'date_print'} = $entry_info_ref->{'mod_time'};
 ...
 {% endhighlight %}
 
-In order to understand how $entry_info_ref->{‘mod_date’} and $entry_info_ref->{‘mod_date’} are defined we need to look at asmcmdshare.pm module which is the ASM command line interface (Shared Functionality Module).
+In order to understand how _$entry_info_ref->{'mod_date'}_ and _$entry_info_ref->{'mod_date'}_ are defined we need to look at **asmcmdshare.pm** module which is the ASM command line interface (Shared Functionality Module).
 
 Within this module, in subroutine asmcmdshare_get_file we can find the actual query statement used to get file information from V$ASM_FILE. We see that date format is hardcoded within the select statement.
 Control ASMCMD date time format with environment variable.
@@ -55,7 +55,7 @@ By now, you’ve probably figure it out what you need to do in order to get your
 
 Let’s assume we want to control the format with NLS_DATE_FORMAT_XX environemnt variable.
 
-1. Add condition with default format to be used if environment variable is not set. In our case that would be ‘DD.MM.YYYY HH24:MI:SS’
+1. Add condition with default format to be used if environment variable is not set. In our case that would be 'DD.MM.YYYY HH24:MI:SS'
 2. Add additional column in the query to get the date formatted based on the environment variable definition.
 
 {% highlight bash %}
@@ -98,7 +98,7 @@ $file_info_ref->{'user_number'} = $row->{'USER_NUMBER'};
 ...
 {% endhighlight %}
 
-As final step, in the main ASMCMD module, subroutine asmcmdbase_ls_process_file you need to overwrite $entry_info_ref->{‘date_print’} to be populated with previously defined custom key which holds the data formatted as per ‘NLS_DATE_FORMAT_XX’.
+As final step, in the main ASMCMD module, subroutine _asmcmdbase_ls_process_file_ you need to overwrite _$entry_info_ref->{'date_print'}_ to be populated with previously defined custom key which holds the data formatted as per 'NLS_DATE_FORMAT_XX'.
 
 {% highlight bash %}
 ...
