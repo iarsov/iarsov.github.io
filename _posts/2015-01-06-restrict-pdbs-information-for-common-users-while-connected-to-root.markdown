@@ -28,7 +28,6 @@ SQL> grant create session to c##iarsov container=all;
 
 Grant succeeded.
 
-SQL>
 SQL> grant select on cdb_data_files to c##iarsov container=all;
 
 Grant succeeded.
@@ -49,7 +48,7 @@ SQL> select count(*), con_id from cdb_data_files group by con_id;
 
 From XDB1 pluggable database:
 
-SQL> 
+{% highlight sql %}
 SQL> conn c##iarsov@xdb1
 Enter password: 
 Connected.
