@@ -38,6 +38,8 @@ Once it finds one row which satisfies ROWNUM <= 1 it stops with execution, thatâ
 COUNT(*)
 ----------
 1
+
+Elapsed: 00:00:00.00
 {% endhighlight %}
 
 Having lot of empty blocks from the beginning of the segment will result in longer execution time due to the fact that Oracle will spend some time until it finds a block with a row. We can see that after we delete all rows except the latest which was inserted with APPEND hint.
