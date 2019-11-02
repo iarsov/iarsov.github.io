@@ -22,7 +22,7 @@ TECH18 (Amersfoort, Netherlands), "Parallel Execution", June 2018<br/>
 UKOUG Northern Technology Summit 2018 (Leeds, United Kingdom), "Parallel Execution", May 2018<br/>
 UKOUG (Birmingham, United Kingdom), Masterclass "Parallel Execution With Oracle Database 12c", December 2017<br/>
 BGOUG (Pravets, Bulgaria), "Automate DBA Tasks With Ansible", November 2017<br/>
-Oracle Open World (San Francisco), Co-"Securing Your DBA Monitoring and Backup Scripts", October 2017<br/>
+Oracle Open World (San Francisco), Co-presented "Securing Your DBA Monitoring and Backup Scripts", October 2017<br/>
 SIOUG (Portoroz, Slovenia), "Automate DBA Tasks With Ansible", October 2017<br/>
 HROUG (Rovinj, Croatia), "Automate DBA Tasks With Ansible", October 2017<br/>
 POUG (Krakow, Poland), "Automate DBA Tasks With Ansible", September 2017<br/>
