@@ -6,7 +6,10 @@ permalink: /profesional-activities/
 
 Presentations and Technical Sessions
 
+***Upcoming***<br/>
 BGOUG (Pravetz, Bulgaria) "A Day in the Life of a Real-World Performance Engineer", November 2019<br/>
+
+_Past_<br/>
 Performance Days 2019 (Zurich, Switzerland) "Tracing Parallel Execution", September 2019<br/>
 AOUG (Vienna, Austria), "Tracing Parallel Execution", May 2019<br/>
 OBUG – Belgian Tech Days 2019 (Antwerpen, Belgium), "Tracing Parallel Execution", February 2019<br/>
