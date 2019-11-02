@@ -6,7 +6,8 @@ permalink: /profesional-activities/
 
 Presentations and Technical Sessions
 
-***Upcoming***<br/>
+***Upcoming***
+
 BGOUG (Pravetz, Bulgaria) "A Day in the Life of a Real-World Performance Engineer", November 2019<br/>
 
 _Past_
