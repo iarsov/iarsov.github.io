@@ -21,13 +21,13 @@ TECH18 (Amersfoort, Netherlands), "Parallel Execution", June 2018<br/>
 UKOUG Northern Technology Summit 2018 (Leeds, United Kingdom), "Parallel Execution", May 2018<br/>
 UKOUG (Birmingham, United Kingdom), Masterclass "Parallel Execution With Oracle Database 12c", December 2017<br/>
 BGOUG (Pravets, Bulgaria), "Automate DBA Tasks With Ansible", November 2017<br/>
-Oracle Open World (San Francisco), Co-presented "Securing Your DBA Monitoring and Backup Scripts", October 2017<br/>
-SIOUG (Portoroz, Slovenia), Presented "Automate DBA Tasks With Ansible", October 2017<br/>
-HROUG (Rovinj, Croatia), Presented "Automate DBA Tasks With Ansible", October 2017<br/>
-POUG (Krakow, Poland), Presented "Automate DBA Tasks With Ansible", September 2017<br/>
-TECH17 (Amersfoort, Netherlands), Presented "Parallel Execution", June 2017<br/>
-BGOUG (Pravets, Bulgaria), Presented "Parallel Execution", June 2017<br/>
-POUG (Warsaw, Poland), Presented "Parallel Execution", October 2016<br/>
-HROUG (Rovinj, Croatia), Presented "Oracle Data Redaction 12c", October 2015<br/>
-SIOUG (Portoroz, Slovenia), Presented "Oracle Data Redaction 12c", October 2015<br/>
-BGOUG (Plovdiv, Bulgaria), Presented "Oracle Data Redaction 12c", June 2015
+Oracle Open World (San Francisco), Co-"Securing Your DBA Monitoring and Backup Scripts", October 2017<br/>
+SIOUG (Portoroz, Slovenia), "Automate DBA Tasks With Ansible", October 2017<br/>
+HROUG (Rovinj, Croatia), "Automate DBA Tasks With Ansible", October 2017<br/>
+POUG (Krakow, Poland), "Automate DBA Tasks With Ansible", September 2017<br/>
+TECH17 (Amersfoort, Netherlands), "Parallel Execution", June 2017<br/>
+BGOUG (Pravets, Bulgaria), "Parallel Execution", June 2017<br/>
+POUG (Warsaw, Poland), "Parallel Execution", October 2016<br/>
+HROUG (Rovinj, Croatia), "Oracle Data Redaction 12c", October 2015<br/>
+SIOUG (Portoroz, Slovenia), "Oracle Data Redaction 12c", October 2015<br/>
+BGOUG (Plovdiv, Bulgaria), "Oracle Data Redaction 12c", June 2015
