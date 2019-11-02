@@ -7,13 +7,13 @@ categories: oracle
 
 Recently I wrote a blog post for an Ansible module I wrote for Oracle patching. The blog post is published on Pythian’s blog.
 
-You can read more at (https://blog.pythian.com/automating-oracle-patching-with-an-ansible-module){:target="_blank"}
+You can read more at <https://blog.pythian.com/automating-oracle-patching-with-an-ansible-module/>{:target="_blank"}
 
 The idea of the playbook and the module is to automate whole process when patching Oracle binaries with PSUs, BPs, RUs etc.
 
-You can find the playbook and module on my GitHub page at (https://github.com/iarsov/ansible-orapatch){:target="_blank"}
+You can find the playbook and module on my GitHub page at <https://github.com/iarsov/ansible-orapatch/>{:target="_blank"}
 
-README is available at (https://github.com/iarsov/ansible-orapatch/blob/master/README.md){:target="_blank"}
+README is available at <https://github.com/iarsov/ansible-orapatch/blob/master/README.md/>{:target="_blank"}
 
 Expected actions performed by the module:
 
