@@ -52,7 +52,8 @@ Having lot of empty blocks from the beginning of the segment will result in long
 COUNT(*)
 ----------
 1
-{% endhighlight %}
+
+Elapsed: 00:00:17.22
 
 Execution Plan
 ----------------------------------------------------------
