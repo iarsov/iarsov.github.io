@@ -19,6 +19,7 @@ REGEXP – data is masked based on regular expression pattern
 In this part 1 I am going to show data redaction for characters, in the following part I’ll write for numbers and dates.
 
 ***Preparation***
+
 I have created the following table just for the purpose of this post (I haven’t included any architectural design principals).
 
 {% highlight sql %}
