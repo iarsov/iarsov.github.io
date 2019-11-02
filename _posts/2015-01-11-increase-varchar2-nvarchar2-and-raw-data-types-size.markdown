@@ -5,7 +5,7 @@ date:   2015-01-11
 categories: oracle
 ---
 
-Starting with 12c we can extend the size for VARCHAR2, NVARCHAR2 and RAW data types. The modification is done by setting MAX_STRING_SIZE init parameter. Possible values are { STANDARD | EXTENDED } where:
+Starting with 12c we can extend the size for VARCHAR2, NVARCHAR2 and RAW data types. The modification is done by setting MAX_STRING_SIZE init parameter. Possible values are { STANDARD \| EXTENDED } where:
 
 STANDARD = same as pre-12c configuration. Maximum size is 4000 bytes for VARHCAR2, NVARCHAR2 and 2000 bytes for RAW.<br/>
 EXTENDED = maximum size is 32767 bytes.
