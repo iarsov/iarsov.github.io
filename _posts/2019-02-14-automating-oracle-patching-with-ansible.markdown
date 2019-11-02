@@ -19,9 +19,9 @@ Expected actions performed by the module:
 
 The module will identify what database instances, listeners and ASM instances are running.<br/>
 The module will shutdown all listeners and database instances, only if the home from which services are running is being patched.<br/>
-The module will start up all previously stopped services after it completes with patching*<br/>
-The module will skip databases which are not in READ WRITE state**<br/>
-The module will identify if a given database is in STANDBY or PRIMARY role***<br/>
+The module will start up all previously stopped services after it completes with patching *<br/>
+The module will skip databases which are not in READ WRITE state **<br/>
+The module will identify if a given database is in STANDBY or PRIMARY role ***<br/>
 The module always patches GI homes with opatchauto<br/>
 The module always patches DB homes with opatch<br/>
 The module will make multiple restarts of the databases and listeners during the process<br/>
