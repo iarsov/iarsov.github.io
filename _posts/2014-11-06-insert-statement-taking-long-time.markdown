@@ -57,9 +57,11 @@ ASC_RESTRICTION_LISTS_S                 0
 Next what I did was to set cache for this sequence.
 With CACHE we are pre-allocating sequence numbers in memory so those cached numbers can be accessed faster. Be careful because in some circumstances those numbers in memory can be lost and you can end up with gaps.
 
+{% highlight sql %}
 SQL> alter sequence ASC_RESTRICTION_LISTS_S cache 100;
 
 Sequence altered.
+{% endhighlight %}
 
 And when I re-run the .sql script (insert statement) it finished for ~2 seconds.
 
