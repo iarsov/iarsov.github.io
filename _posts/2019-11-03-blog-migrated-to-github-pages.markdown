@@ -9,7 +9,7 @@ I have decided to ditch Wordpress and all activities that come with it (plugins,
 
 GitHub Pages offer very easy, fast and clean environment if you have blog similar to mine where you mainly post text based (_with few images now and then_) posts.
 
-I will explain the steps I took to configure Jekyll and setup GitHub Pages.
+I will explain the steps I took to configure Jekyll and setup [GitHub Pages](https://pages.github.com){:target="_blank"}.
 
 * You need to have GitHub account. If you don't have one you can create at [GitHub](https://github.com){:target="_blank"}
 * Create public repository named _username_.github.io
