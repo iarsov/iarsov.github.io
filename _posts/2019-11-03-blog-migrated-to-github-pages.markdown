@@ -32,8 +32,7 @@ Now, you should be able to access your page via _youraccount_.github.io
 
 If you want to use custom domain for you site, like I do, then you need to let GitHub know what domain/subdomain you want to use and update your DNS settings.
 
-Provide your domain/subdomain to GitHub Pages via _your\_repository_ -> Settings -> GitHub Pages -> _Custom domain_ 
-This will create CNAME file in the root directory and it will store the custom domain.
+Provide your domain/subdomain to GitHub Pages via _your\_repository_ -> Settings -> GitHub Pages -> _Custom domain_. This will create CNAME file in the root directory and it will store the custom domain.
 
 At this point you won't be able to _Enforce HTTPS_
 
