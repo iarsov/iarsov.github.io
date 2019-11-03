@@ -11,16 +11,18 @@ GitHub Pages offer very easy, fast and clean environment if you have blog simila
 
 I will explain the steps I took to configure Jekyll and setup GitHub Pages.
 
-1. You need to have GitHub account. If you don't have one you can create at [GitHub](https://github.com){:target="_blank"}
-2. Create public repository named _username_.github.io
+* You need to have GitHub account. If you don't have one you can create at [GitHub](https://github.com){:target="_blank"}
+* Create public repository named _username_.github.io
     * In general the repository needs to be public. I have read that you can have your repository private if you have paid plan, but I haven't tried it.
-3. Go to [Jekyll](https://jekyllrb.com/docs/installation){:target="_blank"} installation page to get familiar with the framework.
-4. Once you have Jekyll installed (I installed in on Ubuntu VM) you need to create your site structure with:
-    {% highlight bash %}
-    jekyll new myblog
-    {% endhighlight %}
-5. Push the folder contents to the GitHub repository you created in step #2. I use [GitHub Desktop](https://desktop.github.com){:target="_blank"} on daily basis to push/pull changes to/from GitHub.
-6. Open your favourite browser and go to _username_.github.io
+* Go to [Jekyll](https://jekyllrb.com/docs/installation){:target="_blank"} installation page to get familiar with the framework.
+* Once you have Jekyll installed (I installed in on Ubuntu VM) you need to create your site structure with:
+
+{% highlight bash %}
+jekyll new myblog
+{% endhighlight %}
+
+* Push the folder contents to the GitHub repository you created in step #2. I use [GitHub Desktop](https://desktop.github.com){:target="_blank"} on daily basis to push/pull changes to/from GitHub.
+* Open your favourite browser and go to _username_.github.io
 
 Now, you should be able to access your page via _youraccount_.github.io
 
