@@ -62,7 +62,7 @@ You should be able to easily integrate Disqus comments but since I don't have an
 
 **How do I create blog posts?**
 
-Now, in order to publish a blog post I simply open my favourite editor (Visual Studio Code) write my post in Markdown (and/or HTML) syntax and commit to GitHub.
+In order to publish a blog post I simply open my favourite editor (Visual Studio Code) write my post in Markdown (and/or HTML) syntax and commit to GitHub.
 
 To create a post, add a file to your _posts directory with the following format:
 
