@@ -68,7 +68,7 @@ Now, in order to publish a blog post I simply open my favourite editor (Visual S
 
 Each post needs to have metadata definition at the top
 
-{% highlight %} 
+{% highlight bash %} 
 ---
 layout: post
 title:  "_post_title_"
@@ -81,7 +81,7 @@ You can read more at [Posts](https://jekyllrb.com/docs/posts){:target="_blank"}.
 
 For example, to format code blocks you use 
 
-```liquid
+```
 {% highlight sql %}
 _code_
 {% endhighlight %}
