@@ -22,7 +22,7 @@ jekyll new myblog
 {% endhighlight %}
 
 5. Push the folder contents to the GitHub repository you created in step #2. I use [GitHub Desktop](https://desktop.github.com){:target="_blank"} on daily basis to push/pull changes to/from GitHub.
-6. Open your favourite folder and go to _username_.github.io
+6. Open your favourite browser and go to _username_.github.io
 
 Now, you should be able to access your page via _youraccount_.github.io
 
