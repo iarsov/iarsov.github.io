@@ -9,12 +9,12 @@ If you’ve used virtual columns with data redaction you may have encountered th
 
 I've wrote couple of blog posts regarding Data Redaction
 
-[Data Redaction – part 1](https://iarsov.github.io/oracle/data-redaction-part-1.html){:target="_blank"}
+[Data Redaction – part 1](https://iarsov.github.io/oracle/data-redaction-part-1.html){:target="_blank"}<br/>
 [Data Redaction – part 2](https://iarsov.github.io/oracle/data-redaction-part-2.html){:target="_blank"}
 
 More on this virtual column bug with data redaction you can read at:
 
-[Function Based Indexes and Data Redaction](https://iarsov.github.io/oracle/function-based-indexes-and-data-redaction.html){:target="_blank"}
+[Function Based Indexes and Data Redaction](https://iarsov.github.io/oracle/function-based-indexes-and-data-redaction.html){:target="_blank"}<br/>
 [Data Redaction thoughts](https://iarsov.github.io/oracle/data-redaction-thoughts.html){:target="_blank"}
 
 Before Oracle 12.2 if you had virtual column with data redaction policy on the original column you could see the data through the virtual column.
