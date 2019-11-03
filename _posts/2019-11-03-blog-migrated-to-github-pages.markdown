@@ -5,22 +5,20 @@ date:   2019-11-03
 categories: general
 ---
 
-I have decided to ditch Wordpress and all activities that come with it (plugins, scripts, hosting maintenance etc.)
+I have decided to ditch Wordpress and all activities that come with it (plugins, scripts, hosting maintenance etc.) and to move to GitHub Pages.
 
 GitHub Pages offer very easy, fast and clean environment if you have blog similar to mine where you mainly post text based (_with few images now and then_) posts.
 
-I will explain the steps I needed to configure Jekyll and setup GitHub Pages.
+I will explain the steps I took to configure Jekyll and setup GitHub Pages.
 
 1. You need to have GitHub account. If you don't have one you can create at [GitHub](https://github.com){:target="_blank"}
 2. Create public repository named _username_.github.io
     * In general the repository needs to be public. I have read that you can have your repository private if you have paid plan, but I haven't tried it.
 3. Go to [Jekyll](https://jekyllrb.com/docs/installation){:target="_blank"} installation page to get familiar with the framework.
 4. Once you have Jekyll installed (I installed in on Ubuntu VM) you need to create your site structure with:
-    
-{% highlight bash %}
-jekyll new myblog
-{% endhighlight %}
-
+    {% highlight bash %}
+    jekyll new myblog
+    {% endhighlight %}
 5. Push the folder contents to the GitHub repository you created in step #2. I use [GitHub Desktop](https://desktop.github.com){:target="_blank"} on daily basis to push/pull changes to/from GitHub.
 6. Open your favourite browser and go to _username_.github.io
 
