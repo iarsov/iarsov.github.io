@@ -64,6 +64,6 @@ You can integrate Disqus comments but since I don't have an account there and I 
 
 Now, in order to publish a blog post I simply open my favourite editor (Visual Studio Code) write my post in Markdown (and/or HTML) syntax and commit to GitHub.
 
-You can read more at [Posts](https://jekyllrb.com/docs/posts){:target="_blank"}. For example for code blocks I use \{% highlight sql %\} and \{% endhighlight %\}.
+You can read more at [Posts](https://jekyllrb.com/docs/posts){:target="_blank"}. For example for code blocks I use \{\% highlight sql \%\} and \{\% endhighlight \%\}.
 
 That's it. The site will automatically build itself and publish the post. In case of an errors I receive an email that the build failed and where it failed. I will make the changes and commit again.
