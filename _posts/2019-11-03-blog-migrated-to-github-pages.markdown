@@ -30,9 +30,9 @@ Now, you should be able to access your page via _youraccount_.github.io
 
 **Custom domain**
 
-If you want to use custom domain for you site, like I do then you need to let GitHub know what domain/subdomain you want to use and update your DNS settings.
+If you want to use custom domain for you site, like I do, then you need to let GitHub know what domain/subdomain you want to use and update your DNS settings.
 
-Provide your domain/subdomain to GitHub Pages via your_repository -> Settings -> GitHub Pages -> _Custom domain_ 
+Provide your domain/subdomain to GitHub Pages via _your\_repository_ -> Settings -> GitHub Pages -> _Custom domain_ 
 This will create CNAME file in the root directory and it will store the custom domain.
 
 At this point you won't be able to _Enforce HTTPS_
@@ -49,7 +49,7 @@ If, like me, you want to use subdomain for your site then you just need to creat
 
 More you can read at [Configuring a subdomain](https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain){:target="_blank"}
 
-Once you have properly configured Apex domain or subdomain you can enforce HTTPS for your site. To do that you need to go to your repository -> Settings -> GitHub Pages -> _Enforce HTTPS_
+Once you have properly configured Apex domain or subdomain you can enforce HTTPS for your site. To do that you need to go to _your\_repository_ -> Settings -> GitHub Pages -> _Enforce HTTPS_
 
 **Posts migration**
 
