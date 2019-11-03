@@ -24,7 +24,7 @@ jekyll new myblog
 * Push the folder contents to the GitHub repository you created in step #2. I use [GitHub Desktop](https://desktop.github.com){:target="_blank"} on daily basis to push/pull changes to/from GitHub.
 * Open your favourite browser and go to _username_.github.io
 
-Now, you should be able to access your page via _youraccount_.github.io
+Now, you should be able to access your page via _username_.github.io
 
 * By default GitHub Pages uses _minima_ theme (that's what I use as well).
 
@@ -44,7 +44,7 @@ More you can read at [Configuring an apex domain](https://help.github.com/en/git
 
 ***Subdomain***
 
-If, like me, you want to use subdomain for your site then you just need to create CNAME record in your DNS configuration to point to _youraccount_.github.io
+If, like me, you want to use subdomain for your site then you just need to create CNAME record in your DNS configuration to point to _username_.github.io
 
 More you can read at [Configuring a subdomain](https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain){:target="_blank"}
 
