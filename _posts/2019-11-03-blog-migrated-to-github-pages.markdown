@@ -77,7 +77,7 @@ Each post needs to have metadata definition at the top defined as:
 
 You can read more at [Posts](https://jekyllrb.com/docs/posts){:target="_blank"}. 
 
-For example, to format code blocks you use Liquid tags (_without the \\_):
+For example, to format code blocks you use Liquid tags ( without the \\ ):
 
 {% highlight liquid %}
 {\% highlight sql \%}
