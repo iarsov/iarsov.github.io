@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Data Redaction Thoughts"
-date:   2015-03-02
+title:  "Function Based Indexes And Data Redaction"
+date:   2015-02-26
 categories: oracle
 ---
 
