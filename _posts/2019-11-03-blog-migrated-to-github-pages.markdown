@@ -16,9 +16,11 @@ I will explain the steps I needed to configure Jekyll and setup GitHub Pages.
     * In general the repository needs to be public. I have read that you can have your repository private if you have paid plan, but I haven't tried it.
 3. Go to [Jekyll](https://jekyllrb.com/docs/installation){:target="_blank"} installation page to get familiar with the framework.
 4. Once you have Jekyll installed (I installed in on Ubuntu VM) you need to create your site structure with:
-    {% highlight bash%}
-    jekyll new myblog
-    {% endhighlight %}
+    
+{% highlight bash %}
+jekyll new myblog
+{% endhighlight %}
+
 5. Push the folder contents to the GitHub repository you created in step #2. I use [GitHub Desktop](https://desktop.github.com){:target="_blank"} on daily basis to push/pull changes to/from GitHub.
 6. Open your favourite folder and go to _username_.github.io
 
@@ -64,6 +66,12 @@ You can integrate Disqus comments but since I don't have an account there and I 
 
 Now, in order to publish a blog post I simply open my favourite editor (Visual Studio Code) write my post in Markdown (and/or HTML) syntax and commit to GitHub.
 
-You can read more at [Posts](https://jekyllrb.com/docs/posts){:target="_blank"}. For example for code blocks I use \{\% highlight sql \%\} and \{\% endhighlight \%\}.
+You can read more at [Posts](https://jekyllrb.com/docs/posts){:target="_blank"}. For example for code blocks I use 
+
+{% highlight sql %} 
+{% highlight sql %} 
+_code_
+{% endhighlight %} 
+{% endhighlight %}
 
 That's it. The site will automatically build itself and publish the post. In case of an errors you'll receive _Page build failure_ email with details on what line it failed. You'll have to fix the error and commit again (which will trigger new build). In case of _Page build failure_ you're site will be still available! You just won't see the new changes at the build failed.
