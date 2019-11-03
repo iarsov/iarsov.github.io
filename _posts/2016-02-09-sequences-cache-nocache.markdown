@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Sequences – Cache/No-Cache"
+title:  "Sequences – Short Cache/No-Cache"
 date:   2016-02-09
 categories: oracle
 ---
