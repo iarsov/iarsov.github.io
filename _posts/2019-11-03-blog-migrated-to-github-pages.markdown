@@ -65,6 +65,12 @@ You can integrate Disqus comments but since I don't have an account there and I 
 
 Now, in order to publish a blog post I simply open my favourite editor (Visual Studio Code) write my post in Markdown (and/or HTML) syntax and commit to GitHub.
 
+To create a post, add a file to your _posts directory with the following format:
+
+{% highlight liquid %}
+YEAR-MONTH-DAY-title.MARKUP
+{% endhighlight %}
+
 Each post needs to have metadata definition at the top defined as:
 
 {% highlight liquid %}{% include blog_migrate_liquid_snippet.html %}{% endhighlight %}
@@ -78,7 +84,5 @@ For example, to format code blocks you use Liquid tags (_without the \\_):
 _code_
 {\% endhighlight \%}
 {% endhighlight %}
-
-Post files needs to be saved in a format
 
 That's it. The site will automatically build itself and publish the post. In case of an errors you'll receive _Page build failure_ email with details on what line it failed. You'll have to fix the error and commit again (which will trigger new build). In case of _Page build failure_ you're site will be still available! You just won't see the new changes at the build failed.
