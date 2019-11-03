@@ -67,12 +67,12 @@ SQL> select index_name,
   5 where  index_name = 'T_IX'
   6 /
 
-INDEX_NAME PARTITION_ STATUS
----------- ---------- ----------
-T_IX       P1         USABLE
-T_IX       P3         USABLE
-T_IX       P_MAX      USABLE
-T_IX     P2         UNUSABLE
+INDEX_NAME  PARTITION  STATUS
+----------  ---------- ----------
+T_IX        P1         USABLE
+T_IX        P3         USABLE
+T_IX        P_MAX      USABLE
+T_IX        P2         UNUSABLE
 {% endhighlight %}
 
 Will this always work ? We need to be careful because if we perform maintenance on table sub/partitions and use UPDATE INDEXES those index partitions which are unusable would be rebuild-ed and set back to USABLE (oracle doesn’t have information that we want those partitions to be UNUSABLE forever). This would result into more space consumption and the optimizer would again consider those partitions since their status will be USABLE.
@@ -112,7 +112,7 @@ Table created.
 {% endhighlight %}
 
 I’ve created table T as range partitioned table, enabled partial indexing at table level (I could exclude INDEXING ON, because ON is default value) and excluded only partition p2 from indexing. This means that when I’ll create partial global or local index for table T, the data portion from partition p2 should not be included in the global index or if it’s local index, the index partition will be set as UNUSABLE.
-We can see which partitions are enabled for indexing from DBA|ALL|USER_TAB_PARTITIONS dictionary view.
+We can see which partitions are enabled for indexing from DBA\|ALL\|USER_TAB_PARTITIONS dictionary view.
 
 {% highlight sql %}
 SQL> select partition_name, indexing from user_tab_partitions where table_name = 'T';
@@ -146,7 +146,7 @@ SQL> create index t_ix on t(x) local indexing partial;
 Index created.
 {% endhighlight %}
 
-We can see the index definition from DBA|ALL|USER_INDEXES. It has new column INDEXING which gives information whether the index is PARTIAL or FULL.
+We can see the index definition from DBA\|ALL\|USER_INDEXES. It has new column INDEXING which gives information whether the index is PARTIAL or FULL.
 
 {% highlight sql %}
 SQL> select index_name,indexing from user_indexes where index_name = 'T_IX';
