@@ -68,23 +68,12 @@ Now, in order to publish a blog post I simply open my favourite editor (Visual S
 
 Each post needs to have metadata definition at the top
 
-{% highlight bash %} 
----
-layout: post
-title:  "_post_title_"
-date:   _post_date_
-categories: _post_category_
----
-{% endhighlight %} 
+{% highlight liquid %}{% include blog_migrate_liquid_snippet2.html %}{% endhighlight %}
 
 You can read more at [Posts](https://jekyllrb.com/docs/posts){:target="_blank"}. 
 
 For example, to format code blocks you use 
 
-```
-{% highlight sql %}
-_code_
-{% endhighlight %}
-```
+{% highlight liquid %}{% include blog_migrate_liquid_snippet.html %}{% endhighlight %}
 
 That's it. The site will automatically build itself and publish the post. In case of an errors you'll receive _Page build failure_ email with details on what line it failed. You'll have to fix the error and commit again (which will trigger new build). In case of _Page build failure_ you're site will be still available! You just won't see the new changes at the build failed.
