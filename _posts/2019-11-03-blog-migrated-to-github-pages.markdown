@@ -60,7 +60,7 @@ For comments I decided to use Twitter. On each post (_at the end of the post_) t
 
 You should be able to easily integrate Disqus comments but since I don't have an account there and I want to simplify the things I decided to go with Twitter.
 
-**How do I create blog posts**
+**How do I create blog posts?**
 
 Now, in order to publish a blog post I simply open my favourite editor (Visual Studio Code) write my post in Markdown (and/or HTML) syntax and commit to GitHub.
 
