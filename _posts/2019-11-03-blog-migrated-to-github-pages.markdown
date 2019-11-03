@@ -68,11 +68,11 @@ Now, in order to publish a blog post I simply open my favourite editor (Visual S
 
 Each post needs to have metadata definition at the top
 
-{% highlight liquid %}{% include blog_migrate_liquid_snippet2.html %}{% endhighlight %}
+{% highlight liquid %}{% include blog_migrate_liquid_snippet.html %}{% endhighlight %}
 
 You can read more at [Posts](https://jekyllrb.com/docs/posts){:target="_blank"}. 
 
-For example, to format code blocks you use Liquid tags (_without the "\"_)
+For example, to format code blocks you use Liquid tags (_without the "\\"_)
 
 {% highlight liquid %}
 {\% highlight sql \%}
