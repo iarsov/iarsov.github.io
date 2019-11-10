@@ -61,7 +61,7 @@ For comments I decided to use Twitter. On each post (_at the end of the post_) t
 You should be able to easily integrate Disqus comments but since I don't have an account there and I want to simplify the things I decided to go with Twitter.
 
 Update 10.11.2019:<br/>
-<em>I found a proper construct of a link so that it will work even if you're not logged in to Twitter.</em>
+<em>I found a proper construct for the comment link so that it does not break if you're not logged in to Twitter.</em>
 
 **How do I create blog posts?**
 
