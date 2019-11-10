@@ -56,9 +56,12 @@ The migration of the posts was done manually. I did not bother to automate that 
 
 **Comments**
 
-For comments I decided to use Twitter. On each post (_at the end of the post_) there is a link _comment_ which if clicked will redirect to Twitter. The link contains pre-defined text (the post url) which gets pushed into the _compose tweet box_. The downside is that you need to be already logged in on Twitter in order for the link to work. It seems that Twitter will not redirect to login page if you're not singed in.
+For comments I decided to use Twitter. On each post (_at the end of the post_) there is a link _comment_ which if clicked will redirect to Twitter. The link contains pre-defined text (the post url) which gets pushed into the _compose tweet box_. <span class="crossed-text">The downside is that you need to be already logged in on Twitter in order for the link to work. It seems that Twitter will not redirect to login page if you're not singed in.</span>
 
 You should be able to easily integrate Disqus comments but since I don't have an account there and I want to simplify the things I decided to go with Twitter.
+
+Update 10.11.2019:<br/>
+<em>I found a proper construct of a link so that it will work even if you're not logged in to Twitter.</em>
 
 **How do I create blog posts?**
 
