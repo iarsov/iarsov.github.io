@@ -15,33 +15,34 @@ The possible four cases where period overlap can occur are:
 {% highlight shell %}
 case 1:
 
-   ----------
+   A----------B
 --------|------------|---------
-
+        C            D
 case 2:
 
-                 ----------
+                A----------B
 --------|------------|---------
-
+        C            D
 case 3:
 
-     --------------------
+     A-----------------B
 --------|-----------|---------
-
+        C           D
 case 4:
 
-           -------
+          A-------B
 --------|-----------|---------
+        C           D
 {% endhighlight %}
 
 One way we can determine the overlapping periods is if we use OR conditions for all cases, e.g.:
 
 {% highlight shell %}
-(start_date_1 between start_date_2 and end_date_2) -- case 2/case_3
+(start_date_C between start_date_A and end_date_B) -- cases 1,3
 OR
-(end_date_1 between start_date_2 and end_date_2) -- case 1/case 3
+(end_date_D between start_date_A and end_date_B) -- cases 2,3
 OR
-(start_date_2 between start_date_1 and start_date_2) -- case 4
+(start_date_A between start_date_C and start_date_D) -- case 4
  {% endhighlight %}
 
 If you are familiar with De Morgan’s laws (from school 🙂 ) then:
@@ -55,5 +56,5 @@ also,
 With this implemented, we can get the following condition:
 
 {% highlight shell %}
-(start_date1 <= end_date2 AND end_date1 >= start_date2)
+(start_date_A <= end_date_D AND end_date_B >= start_date_C)
 {% endhighlight %}
