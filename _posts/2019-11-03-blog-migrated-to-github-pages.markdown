@@ -91,4 +91,4 @@ That's it. The site will automatically build itself and publish the post. In cas
 
 ***PageSpeed Insights***
 
-<img src="{{ site.baseurl }}/assets/pagespeed_insights.jpg" />
+<img src="https://blog.iarsov.com/assets/pagespeed_insights.jpg" />
